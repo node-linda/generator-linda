@@ -4,6 +4,6 @@
   },
   "linda": {
     "url": "<%= lindaServer %>",
-    "space": "test",
+    "space": "test"
   }
 }
