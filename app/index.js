@@ -3,7 +3,7 @@
 var yeoman = require('yeoman-generator');
 
 module.exports = yeoman.generators.Base.extend({
-  getDefaultOwner: function() {
+  getDefaultOwner: function(){
     var user, mail;
 
     if (typeof(this.user.git.name) == 'function') {

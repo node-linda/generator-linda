@@ -4,7 +4,7 @@
   "description": "Yeoman generaotr for Linda",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt test"
   },
   "keywords": [
     "yeoman-generator",
@@ -17,5 +17,23 @@
   "license": "MIT",
   "dependencies": {
     "yeoman-generator": "^0.19.1"
-  }
+  },
+  "devDependencies": {
+    "coffee-errors": "*",
+    "coffee-script": "^1.9",
+    "coffeelint": "*",
+    "grunt": "*",
+    "grunt-coffeelint": "*",
+    "grunt-jsonlint": "*",
+    "grunt-notify": "*",
+    "grunt-simple-mocha": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-linda/generator-linda.git"
+  },
+  "bugs": {
+    "url": "https://github.com/node-linda/generator-linda/issues"
+  },
+  "homepage": "https://github.com/node-linda/generator-linda"
 }
