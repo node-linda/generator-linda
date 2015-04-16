@@ -1,3 +1,9 @@
+=== 0.0.2 2015-04-16
+
+* implemented samples
+  * scripts/sample_webhook
+  * scripts/mac_say
+
 === 0.0.1 2015-04-16
 
 * first release
