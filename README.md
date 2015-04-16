@@ -6,7 +6,7 @@
 
 ## Intall
 
-    % npm i yeoman generator-linda -g
+    % npm i yo generator-linda -g
 
 
 ## Generate
