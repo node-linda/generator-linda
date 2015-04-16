@@ -1,7 +1,7 @@
 {
   "name": "generator-linda",
   "version": "0.0.3",
-  "description": "Yeoman generaotr for Linda",
+  "description": "Yeoman generator for Linda. Generate hubot-like workers set.",
   "main": "index.js",
   "scripts": {
     "test": "grunt test"
