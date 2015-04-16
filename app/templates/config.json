@@ -5,5 +5,5 @@
   "linda": {
     "url": "<%= lindaServer %>",
     "space": "test",
-  },
+  }
 }
