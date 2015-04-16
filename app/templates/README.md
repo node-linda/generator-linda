@@ -35,7 +35,7 @@ configure with env variable `DEBUG`
     % PORT=3000 DEBUG=* npm start  # port:3000
 
 
-## Deploy
+## Deploy on Heroku
 
 install [heroku toolbelt](https://toolbelt.heroku.com/) then
 
@@ -44,11 +44,13 @@ install [heroku toolbelt](https://toolbelt.heroku.com/) then
     % heroku config:set 'DEBUG=linda:worker*'
     % heroku logs --tail
 
+edit `config.json`, set 'http://my-great-linda-worker-name.herokuapp.com' in `app.url`
+
 
 ## Test
 
+    % npm install grunt-cli -g
+
     % npm test
-
-or
-
+    # or
     % grunt
