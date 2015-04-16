@@ -3,6 +3,8 @@
 - https://github.com/node-linda/generator-linda
 - https://npmjs.org/package/generator-linda
 
+[![Build Status](https://travis-ci.org/node-linda/generator-linda.svg?branch=master)](https://travis-ci.org/node-linda/generator-linda)
+
 
 ## Intall
 
