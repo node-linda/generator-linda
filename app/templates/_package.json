@@ -2,7 +2,7 @@
   "name": "<%= appName %>",
   "version": "0.0.0",
   "description": "Linda Worker",
-  "main": "linda-worker.coffee",
+  "main": "bin/linda-worker.coffee",
   "scripts": {
     "start": "coffee bin/linda-worker.coffee",
     "test": "grunt test"
