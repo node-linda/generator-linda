@@ -1,0 +1,9 @@
+{
+  "app": {
+    "url": "https://localhost:3000"
+  },
+  "linda": {
+    "url": "<%= lindaServer %>",
+    "space": "test",
+  },
+}

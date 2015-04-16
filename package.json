@@ -1,0 +1,21 @@
+{
+  "name": "generator-linda",
+  "version": "0.0.1",
+  "description": "Yeoman generaotr for Linda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "files": [
+    "app"
+  ],
+  "author": "Sho Hashimoto <hashimoto@shokai.org>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "yeoman-generator": "^0.19.1"
+  }
+}
