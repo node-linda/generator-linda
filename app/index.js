@@ -1,6 +1,7 @@
 'use strict';
 
 var yeoman = require('yeoman-generator');
+var pkg = require('../package.json');
 
 module.exports = yeoman.generators.Base.extend({
   getDefaultOwner: function(){
@@ -26,6 +27,7 @@ module.exports = yeoman.generators.Base.extend({
   },
   constructor: function(){
     yeoman.generators.Base.apply(this, arguments);
+    this.generatorVersion = pkg.version;
     this.log('generate linda-worker template');
   },
   prompting: {

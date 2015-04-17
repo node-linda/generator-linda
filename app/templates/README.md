@@ -1,5 +1,7 @@
 # <%= appName %>
 
+generated with [generator-linda](https://npmjs.org/package/generator-linda) v<%= generatorVersion %>
+
 ## Config
 
 edit `config.json`
