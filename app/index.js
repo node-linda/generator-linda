@@ -46,11 +46,17 @@ module.exports = yeoman.generators.Base.extend({
           name: 'lindaServer',
           message: 'Linda Server',
           default: 'https://linda-server.herokuapp.com'
+        },
+        {
+          name: 'tupleSpace',
+          message: 'default TupleSpace',
+          default: 'test'
         }
       ], function(res){
         this.owner = res.owner;
         this.appName = res.appName;
         this.lindaServer = res.lindaServer;
+        this.tupleSpace = res.tupleSpace;
         done();
       }.bind(this));
     }
