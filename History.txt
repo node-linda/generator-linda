@@ -1,3 +1,8 @@
+=== 0.2.2 2015-04-18
+
+* updated README
+  * added installation for launchd(Mac OSX) and upstart(ubuntu/debian)
+
 === 0.2.1 2015-04-18
 
 * embed generator-linda version in README  #4
