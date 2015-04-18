@@ -6,5 +6,5 @@
     "url": "<%= lindaServer %>",
     "space": "<%= tupleSpace %>"
   },
-  "where": "myroom"
+  "where": "<%= where %>"
 }

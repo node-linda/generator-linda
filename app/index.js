@@ -53,12 +53,18 @@ module.exports = yeoman.generators.Base.extend({
           name: 'tupleSpace',
           message: 'default TupleSpace',
           default: 'test'
+        },
+        {
+          name: 'where',
+          message: 'where to use',
+          default: 'myroom'
         }
       ], function(res){
         this.owner = res.owner;
         this.appName = res.appName;
         this.lindaServer = res.lindaServer;
         this.tupleSpace = res.tupleSpace;
+        this.where = res.where;
         done();
       }.bind(this));
     }
