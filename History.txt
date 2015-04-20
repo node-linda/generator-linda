@@ -1,3 +1,7 @@
+=== 0.2.4 2015-04-20
+
+* fix mac_say script
+
 === 0.2.3 2015-04-18
 
 * prompt "where" to use
