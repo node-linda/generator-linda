@@ -1,3 +1,7 @@
+=== 0.2.6 2015-04-21
+
+* fixed coffeelint
+
 === 0.2.5 2015-04-20
 
 * use bodyParser.json
